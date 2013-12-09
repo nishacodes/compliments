@@ -1,2 +1,2 @@
 require './app'
-run StudentSite::App.new
+run EmergencyCompliment::App.new
