@@ -1,0 +1,34 @@
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 50pt;
+  margin: 100px;
+}
+
+.compliment_container {
+  width: 50%;
+  height: 100%;
+  clear: both;
+  position: fixed;
+  left: 0;
+  background-color: #DDCEFF;
+  color: white;
+}
+
+.image_container {
+  width: 50%;
+  height: 100%;
+  position: fixed;
+  clear: both;
+  right: 0;
+  vertical-align: middle;
+}
+
+img {
+  width: %;
+}
