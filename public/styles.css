@@ -8,6 +8,7 @@ body {
 h1 {
   font-size: 50pt;
   margin: 100px;
+  font-family: 'Nixie One', cursive;
 }
 
 .compliment_container {
@@ -16,7 +17,6 @@ h1 {
   clear: both;
   position: fixed;
   left: 0;
-  background-color: #DDCEFF;
   color: white;
 }
 
@@ -30,5 +30,21 @@ h1 {
 }
 
 img {
-  width: %;
+  width: 100%;
+}
+
+.button {
+  bottom: 50px;
+  width: 240px;
+  height: 40px;
+  position: fixed;
+  background:rgba(255,255,255, 0.3);
+  color: white;
+  font-size: 20pt;
+  font-family: 'Nixie One', cursive;
+  padding: 25px 10px 25px 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  left: 18%;
+  text-align: center;
 }

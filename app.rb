@@ -1,5 +1,6 @@
 require 'sinatra/base'
 require './lib/compliment.rb'
+require './lib/color.rb'
 
 # Why is it a good idea to wrap our App class in a module?
 module EmergencyCompliment # sometimes modules are used if multiple apps are made so its for namespacing
@@ -7,8 +8,13 @@ module EmergencyCompliment # sometimes modules are used if multiple apps are mad
    
     get '/compliment' do
       @compliment = Compliment.new
+      @color = Color.new
       erb :compliment
     end
+
+
+
+
 
     
     
