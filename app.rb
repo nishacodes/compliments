@@ -11,12 +11,6 @@ module EmergencyCompliment # sometimes modules are used if multiple apps are mad
       @color = Color.new
       erb :compliment
     end
-
-
-
-
-
-    
     
   end
 end
