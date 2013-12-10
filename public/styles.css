@@ -5,9 +5,14 @@ body {
 }
 
 .container {
-  min-width: 900px;
+  
   overflow: hidden;
   height: 100%;
+  
+  position: fixed;
+  z-index: 10;
+  background-color: blue;
+  margin-left: 50%;
 }
 
 header {
@@ -21,7 +26,7 @@ header {
    z-index: 5;
    top: 0;
    position: fixed;
-   margin-left: 43%;
+   margin-left: -90px;
    text-align: center;
    font-size: 20pt;
    padding-top: 5px;
