@@ -6,7 +6,7 @@ require './lib/color.rb'
 module EmergencyCompliment # sometimes modules are used if multiple apps are made so its for namespacing
   class App < Sinatra::Base
    
-    get '/compliment' do
+    get '/' do
       @compliment = Compliment.new
       @color = Color.new
       erb :compliment
